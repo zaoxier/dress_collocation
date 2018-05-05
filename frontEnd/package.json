@@ -21,11 +21,13 @@
     "js-cookie": "^2.2.0",
     "lockr": "^0.8.4",
     "lodash": "^4.17.4",
+    "mavon-editor": "^2.5.2",
     "moment": "^2.20.1",
     "nprogress": "^0.2.0",
     "query-string": "^5.0.1",
     "vee-validate": "^2.0.3",
     "vue": "^2.5.2",
+    "vue-quill-editor": "^3.0.5",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },

@@ -8,58 +8,58 @@
 return [
     // 定义资源路由
     '__rest__'=>[
-        'admin/rules'		   =>'admin/rules',
-        'admin/groups'		   =>'admin/groups',
-        'admin/users'		   =>'admin/users',
-        'admin/menus'		   =>'admin/menus',
-        'admin/structures'	   =>'admin/structures',
-        'admin/posts'          =>'admin/posts',
+        'user/rules'		   =>'user/rules',
+        'user/groups'		   =>'user/groups',
+        'user/users'		   =>'user/users',
+        'user/menus'		   =>'user/menus',
+        'user/structures'	   =>'user/structures',
+        'user/posts'          =>'user/posts',
     ],
 	// 【获取信息】
-	'admin/infos/index' =>['admin/infos/index',['method' => 'POST']],
+	'user/infos/index' =>['user/infos/index',['method' => 'POST']],
 	// 刷新token
-	'admin/infos/refresh' =>['admin/infos/refresh',['method' => 'POST']],
+	'user/infos/refresh' =>['user/infos/refresh',['method' => 'POST']],
 	// 【基础】登录
-	'admin/base/login' => ['admin/base/login', ['method' => 'POST|GET']],
+	'user/base/login' => ['user/base/login', ['method' => 'POST|GET']],
 	// 【基础】记住登录
-	'admin/base/relogin'	=> ['admin/base/relogin', ['method' => 'POST']],
+	'user/base/relogin'	=> ['user/base/relogin', ['method' => 'POST']],
 	// 【基础】修改密码
-	'admin/base/setInfo' => ['admin/base/setInfo', ['method' => 'POST']],
+	'user/base/setInfo' => ['user/base/setInfo', ['method' => 'POST']],
 	// 【基础】退出登录
-	'admin/base/logout' => ['admin/base/logout', ['method' => 'POST']],
+	'user/base/logout' => ['user/base/logout', ['method' => 'POST']],
 	// 【基础】获取配置
-	'admin/base/getConfigs' => ['admin/base/getConfigs', ['method' => 'POST']],
+	'user/base/getConfigs' => ['user/base/getConfigs', ['method' => 'POST']],
 	// 【基础】获取验证码
-	'admin/base/getVerify' => ['admin/base/getVerify', ['method' => 'GET']],
+	'user/base/getVerify' => ['user/base/getVerify', ['method' => 'GET']],
 	// 【基础】上传图片
-	'admin/upload' => ['admin/upload/index', ['method' => 'POST']],
+	'user/upload' => ['user/upload/index', ['method' => 'POST']],
 	// 保存系统配置
-	'admin/systemConfigs' => ['admin/systemConfigs/save', ['method' => 'POST']],
+	'user/systemConfigs' => ['user/systemConfigs/save', ['method' => 'POST']],
 	// 【规则】批量删除
-	'admin/rules/deletes' => ['admin/rules/deletes', ['method' => 'POST']],
+	'user/rules/deletes' => ['user/rules/deletes', ['method' => 'POST']],
 	// 【规则】批量启用/禁用
-	'admin/rules/enables' => ['admin/rules/enables', ['method' => 'POST']],
+	'user/rules/enables' => ['user/rules/enables', ['method' => 'POST']],
 	// 【用户组】批量删除
-	'admin/groups/deletes' => ['admin/groups/deletes', ['method' => 'POST']],
+	'user/groups/deletes' => ['user/groups/deletes', ['method' => 'POST']],
 	// 【用户组】批量启用/禁用
-	'admin/groups/enables' => ['admin/groups/enables', ['method' => 'POST']],
+	'user/groups/enables' => ['user/groups/enables', ['method' => 'POST']],
 	// 【用户】批量删除
-	'admin/users/deletes' => ['admin/users/deletes', ['method' => 'POST']],
+	'user/users/deletes' => ['user/users/deletes', ['method' => 'POST']],
 	// 【用户】批量启用/禁用
-	'admin/users/enables' => ['admin/users/enables', ['method' => 'POST']],
+	'user/users/enables' => ['user/users/enables', ['method' => 'POST']],
 	// 【菜单】批量删除
-	'admin/menus/deletes' => ['admin/menus/deletes', ['method' => 'POST']],
+	'user/menus/deletes' => ['user/menus/deletes', ['method' => 'POST']],
 	// 【菜单】批量启用/禁用
-	'admin/menus/enables' => ['admin/menus/enables', ['method' => 'POST']],
+	'user/menus/enables' => ['user/menus/enables', ['method' => 'POST']],
 	// 【组织架构】批量删除
-	'admin/structures/deletes' => ['admin/structures/deletes', ['method' => 'POST']],
+	'user/structures/deletes' => ['user/structures/deletes', ['method' => 'POST']],
 	// 【组织架构】批量启用/禁用
-	'admin/structures/enables' => ['admin/structures/enables', ['method' => 'POST']],
+	'user/structures/enables' => ['user/structures/enables', ['method' => 'POST']],
 	// 【部门】批量删除
-	'admin/posts/deletes' => ['admin/posts/deletes', ['method' => 'POST']],
+	'user/posts/deletes' => ['user/posts/deletes', ['method' => 'POST']],
 	// 【部门】批量启用/禁用
-	'admin/posts/enables' => ['admin/posts/enables', ['method' => 'POST']],
+	'user/posts/enables' => ['user/posts/enables', ['method' => 'POST']],
 	
 	// MISS路由
-	'__miss__'  => 'admin/base/miss',
+	'__miss__'  => 'user/base/miss',
 ];
